@@ -1,0 +1,11 @@
+﻿Console.Clear();
+Console.WriteLine("введите число: ");
+double x1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("введите число: ");
+double y1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("введите число: ");
+double x2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("введите число: ");
+double y2 = Convert.ToDouble(Console.ReadLine());
+double L = Math.Sqrt(Math.Pow(x1 -x2,2) + Math.Pow(y1 - y2, 2));
+Console.WriteLine(Math.Round(L, 2));
